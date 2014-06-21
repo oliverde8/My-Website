@@ -1,0 +1,70 @@
+
+
+div.box{
+    float : left;
+    margin-right : 5px;
+    margin-bottom : 5px;
+    width: 390px;
+}
+
+div.box > .box_content{
+    padding: 15px;
+}
+
+div.box > .box_description > div{
+    display: none;
+}
+
+div.box >  .box_content > div.program_img{
+    float : left;
+    width: 100px;
+    height: 100px;
+    margin-left : -5px;
+}
+
+div.box >  .box_content > div.program_img > img{
+    max-height: 95px;
+    max-width: 95px;
+    vertical-align: middle;
+}
+
+div.box >  .box_content > p{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+div.box >  .box_content > p > span.title{
+    font-weight: bold;
+}
+
+div.program > h3.version{
+    margin-top : 0px;
+    margin-bottom : 0px;
+    padding-top : 0px;
+    padding-bottom : 0px;
+}
+
+div.program > ul{
+    margin-top : 4px;
+    padding-top : 0px;
+}
+
+div.program > ul > li > span.release_name{
+    font-weight: bold;
+}
+
+div.prog_changelog span.version_title{
+    font-weight: bold;
+}
+
+div.prog_changelog span.version_date{
+    color : green;
+}
+
+div.prog_changelog span.version_dwld{
+    padding-left : 10px;
+}
+
+div.prog_changelog span.version_desc{
+
+}

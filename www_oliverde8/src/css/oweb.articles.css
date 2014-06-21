@@ -1,0 +1,20 @@
+.article_image_short{
+    max-height: 200px;
+}
+
+div.pros_cons  li{
+    min-height : 27px;
+    min-line-height:27px;
+    vertical-align: middle;
+    list-style:none;
+    padding-left: 30px;
+}
+
+
+div.pros_cons  > div.Pros li{
+    background: url('img/plus.jpg')  no-repeat left center;
+}
+
+div.pros_cons  > div.Cons li{
+    background: url('img/minus.jpg')  no-repeat left center;
+}
